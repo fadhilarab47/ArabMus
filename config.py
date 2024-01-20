@@ -14,27 +14,27 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "hlo_papa")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Arabnihnge")
 
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "VictoriaBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "ArabxRobot")
 
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "VICTORIA")
+BOT_NAME = getenv("BOT_NAME", "SI ARAB")
 
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "VICTORIA_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "ArabMusic01")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6195725562))
+OWNER_ID = int(getenv("OWNER_ID", 1948147616))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -44,19 +44,24 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/tinaarobot/ABCMUSIC",
+    "https://github.com/fadhilarab47/ArabMus",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/roy_editx")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/the_friendz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Arabc0de")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SIARAB_Support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
+# Set it True if you want to bot to suggest about bot commands to random chats of your bots.
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
+
+AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))  
+# Remember to give value in Seconds
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "e319091f771445b18c029299505d5d4f")
@@ -90,13 +95,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/e65b4d164d980041e5b9a.jpg"
+    "START_IMG_URL", "https://telegra.ph//file/003de0126903b5a3bff77.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e65b4d164d980041e5b9a.jpg"
+    "PING_IMG_URL", "https://telegra.ph//file/ca2b9263b2a71abba7270.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/c1e38928238bdd9715914.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph//file/003de0126903b5a3bff77.jpg"
+STATS_IMG_URL = "https://telegra.ph//file/765e1ebbf9f1e06274a5c.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
