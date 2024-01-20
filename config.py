@@ -28,7 +28,7 @@ ASSUSERNAME = getenv("ASSUSERNAME", "ArabMusic01")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 80))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -89,12 +89,12 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph//file/3900ea5b3385ac7632dac.jpg"
+    "START_IMG_URL", "https://telegra.ph//file/aa81cc03a307d455b747b.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph//file/ca2b9263b2a71abba7270.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph//file/003de0126903b5a3bff77.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph//file/aa81cc03a307d455b747b.jpg"
 STATS_IMG_URL = "https://telegra.ph//file/765e1ebbf9f1e06274a5c.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
